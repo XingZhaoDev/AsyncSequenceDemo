@@ -14,6 +14,7 @@
 		CE3ED30E2806954D0038CD1F /* AsyncSequenceDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3ED30D2806954D0038CD1F /* AsyncSequenceDemoTests.swift */; };
 		CE3ED3182806954D0038CD1F /* AsyncSequenceDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3ED3172806954D0038CD1F /* AsyncSequenceDemoUITests.swift */; };
 		CE3ED31A2806954D0038CD1F /* AsyncSequenceDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3ED3192806954D0038CD1F /* AsyncSequenceDemoUITestsLaunchTests.swift */; };
+		CE3ED327280695D30038CD1F /* ExampleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3ED326280695D30038CD1F /* ExampleViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		CE3ED3132806954D0038CD1F /* AsyncSequenceDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncSequenceDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3ED3172806954D0038CD1F /* AsyncSequenceDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncSequenceDemoUITests.swift; sourceTree = "<group>"; };
 		CE3ED3192806954D0038CD1F /* AsyncSequenceDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncSequenceDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE3ED326280695D30038CD1F /* ExampleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				CE3ED2FE2806954A0038CD1F /* ContentView.swift */,
 				CE3ED3002806954C0038CD1F /* Assets.xcassets */,
 				CE3ED3022806954C0038CD1F /* Preview Content */,
+				CE3ED326280695D30038CD1F /* ExampleViewModel.swift */,
 			);
 			path = AsyncSequenceDemo;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE3ED2FF2806954A0038CD1F /* ContentView.swift in Sources */,
+				CE3ED327280695D30038CD1F /* ExampleViewModel.swift in Sources */,
 				CE3ED2FD2806954A0038CD1F /* AsyncSequenceDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
